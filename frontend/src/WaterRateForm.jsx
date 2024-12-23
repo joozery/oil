@@ -4,9 +4,12 @@ import "./App.css";
 const WaterRateUI = () => {
   return (
     <div className="water-rate-form">
-  <header className="header">
-    <h1>คิดค่าน้ำอัตราค่าบริการใหม่</h1>
-  </header>
+      <header className="header">
+        <div className="header-content">
+          <img src="src/assets/logo.png" alt="Logo" className="logo" />
+          <h1>คิดค่าน้ำอัตราค่าบริการใหม่</h1>
+        </div>
+      </header>
   <div className="form-content">
     <div className="form-row">
       <div className="form-group">
