@@ -1,7 +1,3 @@
 [build]
-  base = "frontend" # ถ้าโปรเจกต์อยู่ในโฟลเดอร์ frontend
-  publish = "frontend/dist" # ตำแหน่งที่ Publish ไฟล์หลัง Build
-  command = "npm run build" # คำสั่ง Build
-
-[build.environment]
-  NODE_VERSION = "18"
+  publish = "dist"
+  command = "npm run build"
