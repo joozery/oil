@@ -13,6 +13,7 @@ const WaterRateUI = () => {
         <label>ขนาดมาตร</label>
         <select>
           <option>-- เลือกขนาด --</option>
+          <option> 1/2 นิ้ว</option>
         </select>
       </div>
       <div className="form-group">
