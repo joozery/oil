@@ -1,8 +1,2 @@
-[build]
-  base = "frontend" # ชี้ไปที่โฟลเดอร์หลักของโปรเจกต์ (ปรับตามโครงสร้างของคุณ)
-  publish = "frontend/dist" # ชี้ไปที่โฟลเดอร์ build output
-  command = "npm run build" # คำสั่งสำหรับ build โปรเจกต์
-
 [build.environment]
-  NODE_VERSION = "18" # กำหนด Node.js เวอร์ชัน (ปรับตามที่โปรเจกต์ใช้)
-  NPM_FLAGS = "--legacy-peer-deps" # เพิ่มคำสั่งถ้ามีปัญหา dependencies
+NODE_VERSION = "18"
